@@ -92,7 +92,7 @@ const ToDo = () => {
                   {item.value}
                   {"\n"}
                   <Text style={{ fontWeight: "bold", color: color.primary }}>
-                    {item.done ? "Done" : "Not Done"}
+                    {item.done ? "Done" : "Undone"}
                   </Text>
                 </Text>
               </View>
